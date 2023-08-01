@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## necessary instruction
+1. Used Laravel 10 and vue.js 3 
+2.Clone the github link and and run composer, create database(.env) , run php artisan key:generate, npm install && npm run dev command
+3.Used vite plug in to generate auto load by any changes of frontend code.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
