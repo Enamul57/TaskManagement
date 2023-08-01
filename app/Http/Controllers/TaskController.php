@@ -47,6 +47,7 @@ class TaskController extends Controller
         $data->client_name = $request->client_name;
         $data->task_sender = $request->username;
         $data->save();
+        //getting the client info by their email
         $index = DB::table('admins')->where('username',$request->client_name)->first();
 
         Mail::to($index->email)->send(new sendMail($data));

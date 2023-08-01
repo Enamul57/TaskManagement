@@ -122,6 +122,7 @@ export default {
         }
     },
     computed:{
+        //hide nav bar
         hideNavbarSidebar(){
             return this.$route.path==='/admin/register' || this.$route.path==='/admin/login';
         }

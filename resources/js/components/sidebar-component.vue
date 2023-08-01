@@ -105,6 +105,7 @@ export default {
     },
   },
   computed: {
+    //hide side bar
     hideRegisterLogin() {
       return (
         this.$route.path === "/admin/register" ||
